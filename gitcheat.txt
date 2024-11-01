@@ -1,0 +1,37 @@
+
+git config --global user.email ""
+git config --global user.name ""
+
+git clone <link> //used to clone the cloud repo into local
+git remote add origin <https://github.com/nihalasri/git-commamds.git>
+// used to change repo
+
+git init 
+
+git add <file name> || git add .  
+git commit -m "indicate the changes msg"
+"fit , feat,! , refactor,chore,docs "
+
+git push || git push origin main
+
+git pull || git pull origin main
+
+git checkout <branch name>
+git checkout -a //shows the how branches created in cloud and also local
+git checkout -b  //create new branch through comd 
+git checkout -M //rename the branch name
+
+git stach //move to bin or stack
+git stach pop //retrieve code from bin
+
+git status //show status
+
+git branch // show branch created in local
+
+git diff // shows different 
+
+git merge //merge two branch
+
+git log //shows commit changes in being to end
+
+git pull request // used in website
