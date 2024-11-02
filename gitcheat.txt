@@ -19,7 +19,7 @@ git pull || git pull origin main
 git checkout <branch name>
 git checkout -a //shows the how branches created in cloud and also local
 git checkout -b  //create new branch through comd 
-git checkout -M //rename the branch name
+git branch -M //rename the branch name
 
 git stach //move to bin or stack
 git stach pop //retrieve code from bin
